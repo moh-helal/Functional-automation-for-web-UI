@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-05T23:09:46 EET" name="Default suite" finished-at="2022-03-05T23:11:23 EET" duration-ms="97041">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@644baf4a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-03-05T23:09:46 EET" name="Default test" finished-at="2022-03-05T23:11:23 EET" duration-ms="97041">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="startdriver()[pri:0, instance:runner.TestRunner@644baf4a]" started-at="2022-03-05T23:09:34 EET" name="startdriver" finished-at="2022-03-05T23:09:46 EET" duration-ms="12391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@644baf4a]" started-at="2022-03-05T23:09:46 EET" name="setUpClass" finished-at="2022-03-05T23:09:47 EET" duration-ms="434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61514735]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@644baf4a]" started-at="2022-03-05T23:09:47 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-05T23:11:23 EET" duration-ms="96529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["searchtest"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[searchtestm]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@644baf4a]" started-at="2022-03-05T23:11:23 EET" name="tearDownClass" finished-at="2022-03-05T23:11:23 EET" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stopdriver()[pri:0, instance:runner.TestRunner@644baf4a]" started-at="2022-03-05T23:11:23 EET" name="stopdriver" finished-at="2022-03-05T23:11:28 EET" duration-ms="4518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopdriver -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
